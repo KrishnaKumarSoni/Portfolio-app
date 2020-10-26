@@ -9,13 +9,7 @@ Please open the QR scanner on your laptop and scan the QR code given below. The 
 Here's a direct download link for phone. https://tinyurl.com/krishnaPortfolio
 
 ### App Screenshots
-![alt text](https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_1%5B1%5D.jpg "screenshot")
 <table>
-  <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
-     <td>Present day in purple and selected day in pink</td>
-  </tr>
   <tr>
     <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_1%5B1%5D.jpg"></td>
     <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_2%5B1%5D.jpg"></td>
