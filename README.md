@@ -11,7 +11,7 @@ Here's a direct download link for phone. https://tinyurl.com/krishnaPortfolio
 ### App Screenshots
 <table>
   <tr>
-    <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_1%5B1%5D.jpg" height: 400></td>
-    <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_3%5B1%5D.jpg" height: 400></td>
+    <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_1%5B1%5D.jpg" height=180></td>
+    <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_3%5B1%5D.jpg" height=180></td>
   </tr>
  </table>
