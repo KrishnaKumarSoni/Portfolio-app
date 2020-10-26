@@ -1,18 +1,49 @@
 import "package:flutter/material.dart";
 import 'package:krishna_portfolio/constants/text.dart';
+import 'package:krishna_portfolio/ui/academics.dart';
+import 'package:krishna_portfolio/ui/competitions.dart';
+import 'package:krishna_portfolio/ui/contact.dart';
+import 'package:krishna_portfolio/ui/hobbies.dart';
 import 'package:krishna_portfolio/ui/home.dart';
+import 'package:krishna_portfolio/ui/onboarding.dart';
 import 'package:krishna_portfolio/ui/projects.dart';
+import 'package:krishna_portfolio/ui/tools_and_skills.dart';
 import 'package:page_transition/page_transition.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
-    final args = settings.arguments;
-
     switch (settings.name) {
-      case '/':
-        return PageTransition(child: Home(), type: PageTransitionType.fade);
+      case '/home':
+        return PageTransition(
+            child: Home(), type: PageTransitionType.rightToLeft);
+
+      case '/onboarding':
+        return PageTransition(
+            child: OnBoarding(), type: PageTransitionType.fade);
+
       case '/projects':
-        return PageTransition(child: Projects(), type: PageTransitionType.fade);
+        return PageTransition(
+            child: Projects(), type: PageTransitionType.rightToLeftWithFade);
+      case '/competitions':
+        return PageTransition(
+            child: Competitions(), type: PageTransitionType.leftToRight);
+
+      case '/tools & skills':
+        return PageTransition(
+            child: ToolsAndSkills(),
+            type: PageTransitionType.rightToLeftWithFade);
+
+      case '/hobbies':
+        return PageTransition(
+            child: Hobbies(), type: PageTransitionType.leftToRight);
+
+      case '/academics':
+        return PageTransition(
+            child: Academics(), type: PageTransitionType.leftToRight);
+
+      case '/contact':
+        return PageTransition(
+            child: Contact(), type: PageTransitionType.rightToLeftWithFade);
 
       default:
         return _errorRoute();

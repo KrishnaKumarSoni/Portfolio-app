@@ -42,7 +42,7 @@ class _ProjectsState extends State<Projects> {
             mainAxisSize: MainAxisSize.max,
             children: [
               // SizedBox(height: 10.0),
-              pageTitle(),
+              pageTitle("Projects", 40),
               SizedBox(height: 30.0),
               heading("Buddin App", ""),
               SizedBox(height: 15.0),
