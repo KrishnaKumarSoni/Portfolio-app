@@ -12,7 +12,6 @@ Here's a direct download link for phone. https://tinyurl.com/krishnaPortfolio
 <table>
   <tr>
     <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_1%5B1%5D.jpg"></td>
-    <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_2%5B1%5D.jpg"></td>
     <td><img src="https://github.com/KrishnaKumarSoni/Portfolio-app/blob/main/images/app_image_3%5B1%5D.jpg"></td>
   </tr>
  </table>
