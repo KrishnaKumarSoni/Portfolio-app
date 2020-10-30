@@ -45,7 +45,7 @@ class _WrapperState extends State<Wrapper> {
           } else {
             return MaterialApp(
               theme: Theme.of(context).copyWith(brightness: Brightness.dark),
-              initialRoute: '/home',
+              initialRoute: '/',
               onGenerateRoute: RouteGenerator.generateRoute,
               debugShowCheckedModeBanner: false,
             );

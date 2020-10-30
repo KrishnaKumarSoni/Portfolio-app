@@ -18,30 +18,9 @@ Widget heading(String heading, String link) {
           style: TextStyles.h3Raleway,
         ),
       ),
-      // RichText(
-      //   text: TextSpan(
-      //     children: [
-      //       WidgetSpan(
-      //         child: Container(
-      //           margin: EdgeInsets.only(bottom: 8.0, right: 5.0),
-      //           height: 3.0,
-      //           width: 10.0,
-      //           decoration: BoxDecoration(color: Colors.white),
-      //         ),
-      //       ),
-      //       TextSpan(
-      //         text: heading,
-      //         style: TextStyles.h3Raleway,
-      //       ),
-      //       WidgetSpan(child: SizedBox(width: 10.0)),
-      //     ],
-      //   ),
-      // ),
       (link != null && link.length > 5)
           ? Container(
               width: 25,
-              // decoration:
-              //     BoxDecoration(shape: BoxShape.circle, color: Colors.white),
               child: RaisedButton(
                 padding: EdgeInsets.zero,
                 materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
@@ -215,12 +194,6 @@ Widget description(String description) {
       ),
     ]),
   );
-  // return ExpandText(
-  //   description,
-  //   style: TextStyles.t2Raleway,
-  //   arrowColor: Colors.white,
-  //   maxLines: 5,
-  // );
 }
 
 Widget subHeading(String text) {

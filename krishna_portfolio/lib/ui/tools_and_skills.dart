@@ -25,6 +25,7 @@ class _ToolsAndSkillsState extends State<ToolsAndSkills> {
     "excel",
     "word",
     "powerpoint",
+    "notion",
   ];
 
   @override

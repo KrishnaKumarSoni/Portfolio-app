@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "218647597316",
+    "firebase_url": "https://portfolio-f3edc.firebaseio.com",
+    "project_id": "portfolio-f3edc",
+    "storage_bucket": "portfolio-f3edc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218647597316:android:3cf704f65db1424dcf4051",
+        "android_client_info": {
+          "package_name": "com.example.krishna_portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218647597316-t39frkrujd53c5kcq8j7bf87l8cijcam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnYKLpWHbUSaYilasBt8pXYZlnsMuA2uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218647597316-t39frkrujd53c5kcq8j7bf87l8cijcam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

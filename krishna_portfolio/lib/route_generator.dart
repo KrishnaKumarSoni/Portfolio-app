@@ -13,25 +13,24 @@ import 'package:page_transition/page_transition.dart';
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case '/home':
+      case '/':
         return PageTransition(
             child: Home(), type: PageTransitionType.rightToLeft);
 
       case '/onboarding':
         return PageTransition(
-            child: OnBoarding(), type: PageTransitionType.fade);
+            child: OnBoarding(), type: PageTransitionType.leftToRight);
 
       case '/projects':
         return PageTransition(
-            child: Projects(), type: PageTransitionType.rightToLeftWithFade);
+            child: Projects(), type: PageTransitionType.leftToRight);
       case '/competitions':
         return PageTransition(
             child: Competitions(), type: PageTransitionType.leftToRight);
 
       case '/tools & skills':
         return PageTransition(
-            child: ToolsAndSkills(),
-            type: PageTransitionType.rightToLeftWithFade);
+            child: ToolsAndSkills(), type: PageTransitionType.leftToRight);
 
       case '/hobbies':
         return PageTransition(
@@ -43,7 +42,7 @@ class RouteGenerator {
 
       case '/contact':
         return PageTransition(
-            child: Contact(), type: PageTransitionType.rightToLeftWithFade);
+            child: Contact(), type: PageTransitionType.leftToRight);
 
       default:
         return _errorRoute();

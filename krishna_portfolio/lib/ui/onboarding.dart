@@ -2,6 +2,7 @@ import "package:flutter/material.dart";
 import 'package:krishna_portfolio/constants/app_colors.dart';
 import 'package:krishna_portfolio/constants/strings.dart';
 import 'package:krishna_portfolio/constants/text.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class OnBoarding extends StatefulWidget {
   @override
@@ -9,6 +10,18 @@ class OnBoarding extends StatefulWidget {
 }
 
 class _OnBoardingState extends State<OnBoarding> {
+  void setVersion() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString("appVersion", "1.0");
+    //TODO: EVERY TIME YOU UPDATE THE APP, UPDATE THE VERSION OVERE HERE AS WELL. (BEFORE SHIPPING)
+  }
+
+  @override
+  void initState() {
+    setVersion();
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     double h = MediaQuery.of(context).size.height;
@@ -48,7 +61,7 @@ class _OnBoardingState extends State<OnBoarding> {
                   ),
                   onPressed: () {
                     Navigator.pushNamedAndRemoveUntil(
-                        context, "/home", (route) => false);
+                        context, "/", (route) => false);
                   },
                   elevation: 0.0,
                 ),

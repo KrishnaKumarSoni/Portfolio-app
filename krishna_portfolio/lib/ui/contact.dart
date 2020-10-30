@@ -47,6 +47,21 @@ class _ContactState extends State<Contact> {
                     height: 70.0,
                     child: RaisedButton(
                       materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                      elevation: 0.0,
+                      color: Colors.transparent,
+                      onPressed: () => goToWebPage(
+                          "https://wa.me/919166900151?text=Hi%20Krishna%21"),
+                      child: Image(
+                        image: AssetImage("assets/whatsapp.png"),
+                        height: 60,
+                      ),
+                    ),
+                  ),
+                  Container(
+                    width: 60.0,
+                    height: 70.0,
+                    child: RaisedButton(
+                      materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                       color: Colors.transparent,
                       elevation: 0.0,
                       child: Image(
